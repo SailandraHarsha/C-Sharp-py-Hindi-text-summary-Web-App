@@ -1,0 +1,1 @@
+C:\Users\Administrator.HARSHA\Anaconda3\python.exe G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\1.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 80 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_1_20.txt

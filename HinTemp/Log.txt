@@ -1,0 +1,577 @@
+﻿ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+Process.Start(myProcessStartInfo) Done
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+Process.Start(myProcessStartInfo) Done
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\12.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 20 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_12_20.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+Process.Start(myProcessStartInfo) Done
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\6.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 20 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_6_20.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+Process.Start(myProcessStartInfo) Done
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\7.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 20 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_7_20.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+Process.Start(myProcessStartInfo) Done
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\8.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 20 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_8_20.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+Process.Start(myProcessStartInfo) Done
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\0.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 20 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_0_20.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\1.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 11 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_1_11.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\2.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 12 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_2_12.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\3.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 20 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_3_20.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\4.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 20 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_4_20.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\5.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 25 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_5_25.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\6.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 25 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_6_25.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\7.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 10 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_7_10.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\8.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 15 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_8_15.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\9.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 80 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_9_80.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\10.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 5 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_10_5.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\0.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 10 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_0_10.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+Process.Start(myProcessStartInfo) Error
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\1.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 15 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_1_15.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+Process.Start(myProcessStartInfo) Error
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+All Parameter Set
+Password Set
+G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\2.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 19 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_2_19.txt
+ProcessStartInfo Set
+Process.Start(myProcessStartInfo) Going to start
+Process.Start(myProcessStartInfo) Error
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\3.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,20,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_3_20.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\4.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,15,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_4_15.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\5.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,5,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_5_5.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\6.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,20,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_6_20.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\7.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,10,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_7_10.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\8.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,15,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_8_15.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\9.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,20,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_9_20.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\10.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,50,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_10_50.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\11.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,10,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_11_10.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\12.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,5,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_12_5.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\13.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,12,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_13_12.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\14.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,10,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_14_10.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\15.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,25,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_15_25.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\16.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,50,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_16_50.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\17.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,50,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_17_50.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\18.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,25,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_18_25.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\19.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,40,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_19_40.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\20.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,20,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_20_20.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\21.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,30,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_21_30.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+Calling Python script with arguments G:\VSVN\HindiSummSail\HinTemp\ORG\22.txt,G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt,35,G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_22_35.txt
+Ready to start Process
+Process Started
+Process Completed
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
+ORG TXT Write Start
+ORG TXT Write Done
+Processing... please wait.
+File Read Start
