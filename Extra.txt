@@ -1,0 +1,245 @@
+﻿#CALL WITH: python G:\\VSVN\\HindiSummSail\\HindiSum\\textSummerizerFinal.py G:\\VSVN\\HindiSummSail\\HindiSum\\CDAC.txt G:\\VSVN\\HindiSummSail\\HindiSum\\stopwords.txt 20
+#!/usr/bin/python
+# -*- coding: ascii -*-
+# -*- coding: utf-8 -*-
+
+
+
+CALL 04-01-2019
+#python G:\VSVN\HindiSummSail\SailHindPy\textSummerizerFinal.py G:\VSVN\HindiSummSail\HinTemp\ORG\1.txt G:\VSVN\HindiSummSail\SailHindPy\stopwords.txt 80 G:\VSVN\HindiSummSail\HinTemp\SUMM\OUT_1_20.txt
+
+
+http://codebetter.com/brendantompkins/2004/05/13/run-a-bat-file-from-asp-net/
+
+
+OLD Code
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using IronPython.Hosting;
+using System.Diagnostics;
+using System.IO;
+using System.Web.Script.Serialization;
+using System.Web.Script.Services;
+using System.Web.Services;
+using System.Text;
+using System.Security;
+
+public partial class GetSumm : System.Web.UI.Page
+{
+    [WebMethod(EnableSession = true)]
+    [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+    public static string GetSummHin(string HinText, string SumPer)
+    {
+        string RetMsg = "Error: Try again";
+        
+        var fileCount = (from file in Directory.EnumerateFiles(HttpContext.Current.Server.MapPath("HinTemp") + "//ORG//", "*.txt", SearchOption.AllDirectories) select file).Count();
+        string FName = fileCount.ToString() +".txt";
+        string FilePath = HttpContext.Current.Server.MapPath("HinTemp") + "//ORG//" + FName;
+        try
+        {
+            if (File.Exists(FilePath))
+            {
+                File.AppendAllText(HttpContext.Current.Server.MapPath("HinTemp")+"//Log.txt", "OLD Deleted" + Environment.NewLine);
+                File.Delete(FilePath);
+            }
+            using (FileStream fs = File.Create(FilePath))
+            {
+                File.AppendAllText(HttpContext.Current.Server.MapPath("HinTemp") + "//Log.txt", "TXT Write Start" + Environment.NewLine);
+                Byte[] txt = new UTF8Encoding(true).GetBytes(HinText);
+                fs.Write(txt, 0, txt.Length);
+                File.AppendAllText(HttpContext.Current.Server.MapPath("HinTemp") + "//Log.txt", "TXT Write Done" + Environment.NewLine);
+                RetMsg = "Processing... please wait.";
+            }
+        }
+        catch (Exception ex)
+        {
+            RetMsg = "Error: " + ex.Message;
+        }
+        if (RetMsg == "Processing... please wait.")
+        {
+            File.AppendAllText(HttpContext.Current.Server.MapPath("HinTemp") + "//Log.txt", "Processing... please wait." + Environment.NewLine);
+            if (GetActSumm(FName.Replace(".txt", ""), SumPer) == "OK\r\n")
+            {
+                return "OUT_" + FName.Replace(".txt", "") + "_" + SumPer + ".txt";
+            }
+            else
+            {
+                return "Error: Try Again";
+            }
+        }
+        return "Please Wait";
+    }
+
+    public static string GetActSumm(string ActFile, string SumPer)
+    {
+        string myString = "";
+        try
+        {
+            string python = @"C:\Users\Administrator.HARSHA\Anaconda3\python.exe";
+            string myPythonApp = HttpContext.Current.Server.MapPath("SailHindPy") + "\\textSummerizerFinal.py";
+
+            string ActFilePath = HttpContext.Current.Server.MapPath("HinTemp") + "\\ORG\\" + ActFile + ".txt";
+            string StopWordFile = HttpContext.Current.Server.MapPath("SailHindPy") + "\\stopwords.txt";
+            int SummPer = Convert.ToInt32(SumPer);
+            string OutFile = HttpContext.Current.Server.MapPath("HinTemp") + "\\SUMM\\OUT_" + ActFile + "_" + SummPer.ToString() + ".txt";
+
+            //ProcessStartInfo myProcessStartInfo = new ProcessStartInfo(python);
+            //myProcessStartInfo.UseShellExecute = false;
+            //myProcessStartInfo.Verb = "runas";
+            //myProcessStartInfo.RedirectStandardOutput = true;
+            //myProcessStartInfo.RedirectStandardInput = true;
+            //myProcessStartInfo.RedirectStandardError = true;
+            //myProcessStartInfo.Arguments = myPythonApp + " " + ActFilePath + " " + StopWordFile + " " + SummPer + " " + OutFile;
+
+
+
+            SecureString passWord = new SecureString();
+            foreach (char c in "S@ilandra~!@".ToCharArray())
+                passWord.AppendChar(c);
+
+            ProcessStartInfo myProcessStartInfo = new ProcessStartInfo
+            {
+                FileName = @"C:\Users\Administrator.HARSHA\Anaconda3\python.exe",
+                UserName = "Administrator",
+                Domain = "",
+                Password = passWord,
+                UseShellExecute = false,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+                Arguments = myPythonApp + " " + ActFilePath + " " + StopWordFile + " " + SummPer + " " + OutFile
+            };
+            Process myProcess = Process.Start(myProcessStartInfo);
+
+            //Process myProcess = new Process();
+            //myProcess.StartInfo = myProcessStartInfo;
+            //myProcess.StartInfo.Verb = "runas";
+            //File.AppendAllText(HttpContext.Current.Server.MapPath("HinTemp") + "//Log.txt", "Calling Python script with arguments " + ActFilePath + "," + StopWordFile + "," + SummPer + "," + OutFile + Environment.NewLine);
+            //File.AppendAllText(HttpContext.Current.Server.MapPath("HinTemp") + "//Log.txt", "Ready to start Process" + Environment.NewLine);
+            //myProcess.Start();
+            //File.AppendAllText(HttpContext.Current.Server.MapPath("HinTemp") + "//Log.txt", "Process Started" + Environment.NewLine);
+            //StreamReader myStreamReader = myProcess.StandardOutput;
+            //myProcess.WaitForExit();
+            //myString = myStreamReader.ReadToEnd();
+            //myProcess.Close();
+            //File.AppendAllText(HttpContext.Current.Server.MapPath("HinTemp") + "//Log.txt", "Process Completed" + Environment.NewLine);
+
+        }
+        catch (Exception ex)
+        {
+            File.AppendAllText(HttpContext.Current.Server.MapPath("HinTemp") + "//Log.txt", ex.Message.ToString() + Environment.NewLine);
+        }
+        return myString;
+    }
+
+    [WebMethod(EnableSession = true)]
+    [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
+    public static string GetFinalSummHin(string OutFile)
+    {
+        string RetMsg = "Error: Try again";
+
+        string OutFilePath = HttpContext.Current.Server.MapPath("HinTemp") + "\\SUMM\\" + OutFile;
+        if (File.Exists(OutFilePath))
+        {
+            var encoding = Encoding.UTF8;
+            var file = new FileInfo(OutFilePath);
+            RetMsg = File.ReadAllText(file.FullName, encoding);
+        }
+        string DelInFile = OutFile.Split('_')[1] + ".txt";
+        //File.Delete(HttpContext.Current.Server.MapPath("HinTemp") + "\\ORG\\" + OutFile.Split('_')[1] + ".txt");
+        //File.Delete(OutFilePath);
+        return RetMsg;
+    }
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        File.AppendAllText(HttpContext.Current.Server.MapPath("HinTemp") + "//Log.txt", "Start" + Environment.NewLine);
+        
+
+        File.AppendAllText(HttpContext.Current.Server.MapPath("HinTemp") + "//Log.txt", "Password Convert" + Environment.NewLine);
+        
+        ProcessStartInfo info = new ProcessStartInfo
+        {
+            FileName = @"C:\Users\Administrator.HARSHA\Anaconda3\python.exe",
+            UserName = "Administrator",
+            Domain = "",
+            Password = passWord,
+            UseShellExecute = false,
+            RedirectStandardOutput = true,
+            RedirectStandardError = true
+        };
+        File.AppendAllText(HttpContext.Current.Server.MapPath("HinTemp") + "//Log.txt", "START" + Environment.NewLine);
+        Process process = Process.Start(info);
+        File.AppendAllText(HttpContext.Current.Server.MapPath("HinTemp") + "//Log.txt", "END" + Environment.NewLine);
+        //// Get the full file path
+        //string strFilePath = HttpContext.Current.Server.MapPath("SailHindPy") + "\\textSummerizerFinal.py";
+
+        //// Create the ProcessInfo object
+        //System.Diagnostics.ProcessStartInfo psi = new System.Diagnostics.ProcessStartInfo(@"C:\Users\Administrator.HARSHA\Anaconda3\python.exe");
+        //psi.UseShellExecute = false;
+        //psi.RedirectStandardOutput = true;
+        //psi.RedirectStandardInput = true;
+        //psi.RedirectStandardError = true;
+        //psi.WorkingDirectory = HttpContext.Current.Server.MapPath("SailHindPy");
+
+        //// Start the process
+        //System.Diagnostics.Process proc = System.Diagnostics.Process.Start(psi);
+
+
+
+        //// Open the batch file for reading
+        //System.IO.StreamReader strm = System.IO.File.OpenText(strFilePath);
+
+        //// Attach the output for reading
+        //System.IO.StreamReader sOut = proc.StandardOutput;
+
+        //// Attach the in for writing
+        //System.IO.StreamWriter sIn = proc.StandardInput;
+
+
+        //// Write each line of the batch file to standard input
+        //while (strm.Peek() != -1)
+        //{
+        //    sIn.WriteLine(strm.ReadLine());
+        //}
+
+        //strm.Close();
+
+        //// Exit CMD.EXE
+        //string stEchoFmt = "# {0} run successfully. Exiting";
+
+        //sIn.WriteLine(String.Format(stEchoFmt, strFilePath));
+        //sIn.WriteLine("EXIT");
+
+        //// Close the process
+        //proc.Close();
+
+        //// Read the sOut to a string.
+        //string results = sOut.ReadToEnd().Trim();
+
+
+        //// Close the io Streams;
+        //sIn.Close();
+        //sOut.Close();
+
+
+        //// Write out the results.
+        //string fmtStdOut = "< font face = courier size = 0 >{ 0}</ font >";
+        //this.Response.Write(String.Format(fmtStdOut, results.Replace(System.Environment.NewLine, "< br >")));
+    }
+}
+
+
+
+
+
+
+
+
+
+
+pip3 install git+https://github.com/webpy/webpy#egg=web.py
